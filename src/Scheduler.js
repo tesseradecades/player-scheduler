@@ -16,7 +16,7 @@ class Scheduler extends React.Component{
 
     render(){
         return (
-            <div className="card">
+            <div className="card text-center">
                 <div className="card-header">
                     Welcome to the Belaheim Player Scheduler
                 </div>
