@@ -24,6 +24,11 @@ class Scheduler extends React.Component{
         console.log(`Weeks ${this.state.weeks}`);
         console.log(`Players ${this.state.players}`);
         console.log(`Off Players ${this.state.offPlayers}`);
+        fetch('/hello').then(response => 
+            response.json().then(data => {
+                console.log(data);
+            })
+        );
     }
 
     updateOffPlayers = (e) =>{
