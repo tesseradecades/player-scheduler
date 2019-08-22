@@ -1,2 +1,2 @@
-release: ./build_front.sh
+release: chmod u+x build_front.sh && ./build_front.sh
 web: python server/server.py 0.0.0.0:5000
