@@ -2,4 +2,4 @@ from unittest import TestCase
 
 class server(TestCase):
     def test_tests_run(self):
-        self.assertTrue((11)==2)
+        self.assertTrue((1+1)==2)
