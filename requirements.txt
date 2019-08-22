@@ -1,1 +1,4 @@
 flask
+
+#for heroku
+gunicorn
