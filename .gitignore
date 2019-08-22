@@ -10,8 +10,6 @@
 
 # production
 /build
-/server/static/react/*
-/server/templates/*
 /server/*/__pycache__/
 
 # misc
